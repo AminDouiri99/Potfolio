@@ -31,7 +31,10 @@ a {
   color: $dark;
   transition: color 200ms ease;
 }
-
+#popup {
+  background-color: red;
+  opacity: 0;
+}
 a:hover {
   color: $lightgray;
   transition: color 200ms ease;
